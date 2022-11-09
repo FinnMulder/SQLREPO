@@ -1,0 +1,42 @@
+.popup{
+     width: 40rem;
+     height: 30rem;
+     background: #2D4263;
+     border-radius: 1rem;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding: 4rem;
+     gap: 4rem;
+}
+
+.popup__label{
+    font-size: 120%;
+}
+
+.popup__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.popup__input{
+    background: none;
+    border: none;
+    color: #eee;
+    font-size: 200%;
+    border-bottom: 0.2rem solid #eee;
+    outline: none;
+}
+
+.popup__button{
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 100%;
+    font-family: sans-serif;
+    border: none;
+    color: #eee;
+    border-radius: 1.5rem;
+    background: linear-gradient(to bottom right, #0F4C75 ,#3282B8 65%)
+    
+}

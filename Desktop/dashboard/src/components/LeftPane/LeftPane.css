@@ -1,0 +1,50 @@
+.dashboard__wrapper{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0rem 0 5rem 0 rgba(37, 75, 98,0.8);
+}
+
+.dashboard__nav{
+}
+
+.dashboard__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.dashboard__link{
+    display: flex;
+}
+
+.dashboard__link:hover .dashboard__message{
+}
+
+.dashboard__message{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 50%;
+    font-size: 80%;
+    background: linear-gradient(to bottom left, #0F4C75 ,#3282B8 65%)
+}
+
+.dashboard__button{
+    width: 12rem;
+    height: 4.5rem;
+    font-size: 100%;
+    font-family: sans-serif;
+    border: none;
+    color: #eee;
+    border-radius: 1.5rem;
+    background: linear-gradient(to bottom right, #0F4C75 65%,#3282B8)
+}
+
+.dashboard__button:hover{
+        cursor:pointer;
+        background-position: 50px;
+}
