@@ -1,0 +1,8 @@
+.Artist p{
+    color: #81C6E8;
+}
+
+.Artist li{
+    margin: 2rem;
+    list-style-type: none;
+}

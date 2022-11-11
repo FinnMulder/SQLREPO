@@ -1,0 +1,39 @@
+.todo{
+    background: #eee;
+    width: 40rem;
+    min-height: 60rem;
+    box-shadow: -0 1rem 4rem 0 #A2B5BB;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.todo__header{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.todo__heading{
+    font-family: 'Kalam', cursive;
+    font-size: 280%;
+}
+.todo__list{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    gap: 5rem;
+}
+.todo__item{
+    list-style: none;
+    padding: 2rem;
+    border-bottom: 0.2rem solid #B2C8DF;
+    
+}
+.todo__item:hover{
+    background: #B2C8DF;
+    cursor:pointer;
+}
+.todo__item--done{
+    text-decoration: line-through;
+}
